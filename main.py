@@ -1,7 +1,7 @@
 import requests
 from datetime import datetime
 
-API_KEY = "e75a310ae2db0270ef0849c7ed6727b2" 
+API_KEY = "INSERT YOUR API KEY HERE" 
 CITY = input("Enter city name, case sensitive:")
 
 current_url = f"http://api.openweathermap.org/data/2.5/weather?q={CITY}&appid={API_KEY}&units=metric"
